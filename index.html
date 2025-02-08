@@ -1,16 +1,101 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pro Plumbing - Your Trusted Local Expert</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+    <header>
+        <nav>
+            <div class="logo">Pro Plumbing</div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+                <a href="#book" class="book-now">Book Now</a>
+            </div>
+        </nav>
+    </header>
 
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Trusted Local<br><span>Plumbing</span> Expert</h1>
+            <p>Professional plumbing services for your home and business. Available 24/7 for emergencies.</p>
+            <div class="hero-buttons">
+                <button class="primary-button">Get Started</button>
+                <button class="secondary-button">Call Us</button>
+            </div>
+        </div>
+        <div class="why-choose">
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li>Licensed & Insured Professionals</li>
+                <li>24/7 Emergency Service</li>
+                <li>Friendly, local, reliable</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <p>Professional plumbing solutions for every need</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230066cc'><path d='M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z'/></svg>" alt="Emergency">
+                <h3>Emergency Repairs</h3>
+                <p>24/7 emergency plumbing services for urgent issues</p>
+            </div>
+            <div class="service-card">
+                <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230066cc'><path d='M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm0 16a7 7 0 1 1 0-14 7 7 0 0 1 0 14z'/></svg>" alt="Leak">
+                <h3>Leak Detection</h3>
+                <p>Advanced leak detection and repair services</p>
+            </div>
+            <div class="service-card">
+                <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230066cc'><path d='M12 3v18M3 12h18'/></svg>" alt="Installation">
+                <h3>Installation</h3>
+                <p>Professional installation of fixtures and appliances</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Need help with your plumbing? Contact us today for a free quote or schedule service online.</p>
+            <div class="contact-details">
+                <div>
+                    <h4>Phone</h4>
+                    <p>+1 (555) 567-890</p>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <p>info@proplumbing.com</p>
+                </div>
+                <div>
+                    <h4>Address</h4>
+                    <p>123 Plumbing Street, City, State 12345</p>
+                </div>
+            </div>
+        </div>
+        <form class="contact-form">
+            <h3>Send us a message</h3>
+            <input type="text" placeholder="Your name">
+            <input type="email" placeholder="Your email">
+            <input type="tel" placeholder="Your phone number">
+            <textarea placeholder="How can we help?"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Pro Plumbing. All rights reserved.</p>
+        <p>Licensed and Insured</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
