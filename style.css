@@ -78,7 +78,7 @@ nav {
 }
 
 .hero {
-    background: linear-gradient(135deg, #f5f8ff 0%, #e8f0fe 100%);
+    background: #E2F1F3;
     padding: 6rem 5% 4rem;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
