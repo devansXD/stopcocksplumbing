@@ -72,7 +72,7 @@ nav {
 }
 
 .book-now {
-    background: #0066cc;
+    background: #94cbd1;
     color: white !important;
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -104,7 +104,7 @@ nav {
 }
 
 .primary-button {
-    background: #0066cc;
+    background: #94cbd1;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -115,14 +115,14 @@ nav {
 }
 
 .primary-button:hover {
-    background: #0052a3;
+    background: #7ab8be;
     transform: translateY(-2px);
 }
 
 .secondary-button {
     background: white;
-    color: #0066cc;
-    border: 2px solid #0066cc;
+    color: #94cbd1;
+    border: 2px solid #94cbd1;
     padding: 1rem 2rem;
     border-radius: 6px;
     cursor: pointer;
