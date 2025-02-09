@@ -193,6 +193,68 @@ nav {
     font-weight: 600;
 }
 
+.case-studies {
+    padding: 4rem 5%;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case-study-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.case-study-card:hover {
+    transform: translateY(-4px);
+}
+
+.case-study-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.case-study-image.emergency {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=500');
+}
+
+.case-study-image.bathroom {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=500');
+}
+
+.case-study-image.heating {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1555544014-19d8c9a06f43?auto=format&fit=crop&w=500');
+}
+
+.case-study-content {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.case-study-content h3 {
+    color: #1a365d;
+    margin-bottom: 0.5rem;
+}
+
+.case-study-location {
+    color: #0066cc;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
 .contact {
     background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
     padding: 6rem 5%;
