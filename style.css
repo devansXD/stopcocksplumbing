@@ -306,6 +306,10 @@ nav {
     color: #333;
 }
 
+h2 {
+    font-weight: 600;
+}
+
 .contact h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
