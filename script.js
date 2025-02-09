@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         form.reset();
     });
 
-    const getStartedBtn = document.querySelector('.primary-button');
+    const bookAppointmentBtn = document.querySelector('.primary-button');
     getStartedBtn.addEventListener('click', function() {
         document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
     });
