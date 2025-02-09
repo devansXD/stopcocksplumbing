@@ -295,7 +295,7 @@ nav {
 
 .case-study-location {
     color: #6573A9;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 
@@ -349,6 +349,11 @@ footer {
     padding: 2rem;
     background: #333;
     color: white;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 @media (max-width: 768px) {
