@@ -194,7 +194,7 @@ nav {
 
 .about-section {
     padding: 6rem 5%;
-    background: white;
+    background: #E2F1F3;
 }
 
 .about-content {
@@ -300,10 +300,10 @@ nav {
 }
 
 .contact {
-    background: linear-gradient(135deg, #6573A9 0%, #0052a3 100%);
+    background: #E2F1F3;
     padding: 6rem 5%;
     text-align: center;
-    color: white;
+    color: #333;
 }
 
 .contact h2 {
